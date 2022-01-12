@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400&display=swap');
+
+body {
+  color: #cecece;
+  background-color: #1C1526;
+  font-family: "Roboto", sans-serif;
+  width: 97.5vw;
+}
+
+a {
+  color: #27A2FD
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  margin-bottom: 0px;
+  color: white;
+}
+
+#package {
+  margin-top: 0px;
+}
+
+#versions {
+  table-layout: fixed;
+  border-collapse: collapse;
+  width: 100%;
+  font-family: "Roboto", sans-serif;
+}
+
+#versions td, #versions th {
+  padding: 8px;
+}
+
+#versions tr:nth-child(even){background-color: #271F33;}
+
+#versions th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #9722FF;
+  color: white;
+}
+
+.files {
+  width: 100%;
+}
+
+.version {
+  vertical-align: top;
+}
+
+.resource {
+  margin-left: 1em;
+}
+
+.expand_button {
+  margin: 1em;
+  margin-top: 1.1em;
+}
+
+.expand_button:hover {
+  cursor: pointer;
+}
